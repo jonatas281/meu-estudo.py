@@ -16,4 +16,4 @@ numero2 = float(input("digite seu segundo numero: "))
 media_resultado = calcular_media(numero1,numero2)
 
 
-print(f"resultado é :{media_resultado}")
+print(f"resultado  é :{media_resultado}")

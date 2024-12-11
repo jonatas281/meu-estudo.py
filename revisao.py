@@ -1,18 +1,21 @@
 import os 
-os . system ("cls || clear")
+os. system ("cla || clear")
 
-# declarando variaveis 
-login =input("digite seu login: ")
-senha =input("digite sua senha: ")
+"""
+faça um codigo que pessa ao usuario o login e a senha, se o login e senha estiver correto 
+escreva bem vindo se nao escreva erro.
+"""
 
-login_salvo= login == "jonas"
-senha_salva= senha == "1234"
 
-while True:
-    login = input ("digite seu login: ")
-    senha = input ("digite sua senha: ")
+login_salvo = "jonas"
+senha_salvo = "12345"
 
-    if login_salvo == login and senha_salva == senha:
-     print ("bem vindon ")
-    break
-print ("tente novamente")
+while True: 
+    login = input("digite seu login: ")
+    senha = input("digite sua senha: ")
+    if login == "jona" and senha == "12345":
+     print ("bem vindo")
+     break
+    else:
+     print("erro:")
+    
